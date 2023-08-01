@@ -31,8 +31,6 @@ const add_info = async(req,res)=>{
         return res.send(formerror)
     }
 
-
-    
     const getData = {
         user_id:req.body.user_id,
         blog_name:req.body.blog_name,
